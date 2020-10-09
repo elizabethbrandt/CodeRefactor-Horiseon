@@ -1,13 +1,16 @@
+/* styles that apply globally */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Background color that applies to everything within the body */
 body {
     background-color: #d9dcd6;
 }
 
+/* Specifies the spacing, font, and colors of the header where the navigation bar is*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Makes the Horiseon company name stand out with bigger text */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes the "seo" within the Horiseon name to a different color */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Gives the specific navigation elements spacing, placement, font, and size */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,30 +38,36 @@ header nav {
     font-size: 20px;
 }
 
+/* It's possible this is isn't necessary because the list items are displayed as inline-block */
 header nav ul {
     list-style-type: none;
 }
 
+/* Puts the list items into a blocked line instead of them stacking on top of each other */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Keeps the links white and not underlined in appearance even after being clicked */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Makes all p elements 16px */
 p {
     font-size: 16px;
 }
 
+/* Targets the figure container to be a specific height and width on the page */
 figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
 }
 
+/* Tells the image itself how to behave within the container */
 figure img {
     object-fit: cover;
 }
