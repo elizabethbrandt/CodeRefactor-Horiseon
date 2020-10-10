@@ -8,7 +8,7 @@ Refactor HTML and CSS files to increase the accesibility of the website
 
 See the deployed GitHub Repo with all the changes here
 
-## Changes made to the source code
+## Overview of changes made to the source code
 
 ### HTML
 
@@ -24,7 +24,7 @@ See the deployed GitHub Repo with all the changes here
 
 See example of before (left) and after (right) code below:
 
-![starting-vs-ending-html](.assets/images/starting-vs-ending-html.png)
+![starting-vs-ending-html](./assets/images/starting-vs-ending-html.png)
 
 ### CSS
 
@@ -35,3 +35,10 @@ See example of before (left) and after (right) code below:
 * Added comments for each item to explain its function
 * Edited the parameters for the main image after having moved it from the CSS to the HTML
     
+See example of before (left) and after (right) code below:
+
+![starting-vs-ending-css](./assets/images/starting-vs-ending-css.png)
+
+## Conclusion
+
+The end result met the goal of creating more accessible and readable code. I was able to create a more meaningful and semantic HTML as well as reduce the CSS code from **200 lines** to **157 lines** by adding these changes.
