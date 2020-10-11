@@ -4,9 +4,10 @@
 
 Refactor HTML and CSS files to increase the accesibility of the website
 
-## GitHub Repo
+## Links
 
-See the deployed GitHub Repo with all the changes here
+* [See the GitHub Repo with all the changes here](https://github.com/elizabethbrandt/CodeRefactor-Horiseon)
+* [See the Deployed site here](https://elizabethbrandt.github.io/CodeRefactor-Horiseon/)
 
 ## Overview of changes made to the source code
 
